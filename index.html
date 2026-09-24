@@ -59,6 +59,7 @@
       scroll-snap-type: y proximity;
       -webkit-overflow-scrolling: touch;
       background: var(--cream);
+      container-type: size;
     }
 
     /* Phones */
@@ -155,6 +156,7 @@
       top: 65%;
       transform: translateX(-50%);
       font-size: 12px;
+      font-size: clamp(8px, 2.0cqw, 12px);
       letter-spacing: .1em;
       color: #e9dfc8;
       opacity: .85;
@@ -188,6 +190,7 @@
     .hero-text .ganesh-line {
       font-family: 'Cormorant Garamond', serif;
       font-size: 18px;
+      font-size: clamp(8.1px, 3.0cqw, 18px);
       font-weight: 700;
       letter-spacing: .05em;
       color: #6e1a37;
@@ -198,6 +201,7 @@
     .hero-text .blessing-label {
       font-family: 'Cormorant Garamond', serif;
       font-size: 18px;
+      font-size: clamp(8.1px, 3.0cqw, 18px);
       font-weight: 700;
       color: #6e1a37;
       margin-bottom: 3px;
@@ -206,6 +210,7 @@
     .hero-text .blessing-names {
       font-family: 'Cormorant Garamond', serif;
       font-size: 20px;
+      font-size: clamp(9px, 3.333cqw, 20px);
       font-weight: 700;
       color: #6e1a37;
       font-weight: 600;
@@ -215,6 +220,7 @@
     .hero-text .invite-line {
       font-family: 'Cormorant Garamond', serif;
       font-size: 19px;
+      font-size: clamp(8.6px, 3.167cqw, 19px);
       font-weight: 700;
       line-height: 1.6;
       color: #6e1a37;
@@ -229,6 +235,7 @@
     .hero-text .couple-names .nm {
       font-family: 'Jimmy Script', cursive;
       font-size: 58px;
+      font-size: clamp(26.1px, 9.667cqw, 58px);
       font-weight: 500;
       color: #6e1a37;
       line-height: 1.15;
@@ -237,6 +244,7 @@
     .hero-text .couple-names .with {
       font-family: 'Cormorant Garamond', serif;
       font-size: 16px;
+      font-size: clamp(8px, 2.667cqw, 16px);
       font-weight: 700;
       letter-spacing: .15em;
       color: #6e1a37;
@@ -260,6 +268,7 @@
     .hero-names-lower .names {
       font-family: 'Brush Script MT', cursive;
       font-size: 46px;
+      font-size: clamp(20.7px, 7.667cqw, 46px);
       color: #7a1e1e;
     }
 
@@ -290,6 +299,7 @@
       transform: translateX(-50%);
       font-family: 'Cormorant Garamond', serif;
       font-size: 16px;
+      font-size: clamp(8px, 2.667cqw, 16px);
       font-weight: 700;
       letter-spacing: .1em;
       color: #f2e9d8;
@@ -440,6 +450,7 @@
     .fn-block .fn-name {
       font-family: 'Jimmy Script', cursive;
       font-size: 50px;
+      font-size: clamp(22.5px, 8.333cqw, 50px);
       font-weight: 600;
       color: #6e1a37;
     }
@@ -447,6 +458,7 @@
     .fn-block .fn-line {
       font-family: 'Cormorant Garamond', serif;
       font-size: 20px;
+      font-size: clamp(9px, 3.333cqw, 20px);
       font-weight: 700;
       color: #6e1a37;
       font-style: italic;
@@ -455,6 +467,7 @@
     .fn-block .fn-when {
       font-family: 'Cormorant Garamond', serif;
       font-size: 18px;
+      font-size: clamp(8.1px, 3.0cqw, 18px);
       font-weight: 700;
       color: #6e1a37;
       letter-spacing: .04em;
@@ -465,6 +478,7 @@
     .fn-block .fn-venue {
       font-family: 'Cormorant Garamond', serif;
       font-size: 17px;
+      font-size: clamp(8px, 2.833cqw, 17px);
       font-weight: 700;
       color: #6e1a37;
       margin-top: 2px;
@@ -495,6 +509,7 @@
     .wed-block .fn-name {
        font-family: 'Jimmy Script', cursive;
   font-size: 50px;
+      font-size: clamp(22.5px, 8.333cqw, 50px);
   font-weight: 700;
   color: #6e1a37
     }
@@ -502,6 +517,7 @@
     .wed-block .fn-line {
       font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
+      font-size: clamp(9px, 3.333cqw, 20px);
   font-weight: 700;
   color: #6e1a37;
   margin-top: 6px;
@@ -511,6 +527,7 @@
     .wed-block .fn-when {
       font-family: 'Cormorant Garamond', serif;
   font-size: 18px;
+      font-size: clamp(8.1px, 3.0cqw, 18px);
   font-weight: 700;
   color: #6e1a37;
   letter-spacing: .04em;
@@ -521,6 +538,7 @@
     .wed-block .fn-venue {
       font-family: 'Cormorant Garamond', serif;
   font-size: 17px;
+      font-size: clamp(8px, 2.833cqw, 17px);
   font-weight: 700;
   color: #6e1a37;
   margin-top: 3px;
@@ -557,6 +575,7 @@
     .fam-block .fam-title {
       font-family: 'Jimmy Script', cursive;
       font-size: 44px;
+      font-size: clamp(19.8px, 7.333cqw, 44px);
       font-weight: 600;
       color: #fff8f0;
       margin-bottom: 6px;
@@ -565,6 +584,7 @@
     .fam-block .fam-name {
       font-family: 'Cormorant Garamond', serif;
       font-size: 22px;
+      font-size: clamp(9.9px, 3.667cqw, 22px);
       font-weight: 700;
       color: #fff8f0;
       line-height: 1.9;
@@ -578,6 +598,7 @@
       text-align: center;
       font-family: 'Cormorant Garamond', serif;
       font-size: 24px;
+      font-size: clamp(10.8px, 4.0cqw, 24px);
       font-weight: 700;
       color: #6e1a37;
       font-style: italic;
@@ -595,6 +616,7 @@
       display: block;
       font-family: 'Jimmy Script', cursive;
       font-size: 38px;
+      font-size: clamp(17.1px, 6.333cqw, 38px);
       font-weight: 700;
       color: #6e1a37;
       font-style: normal;
@@ -650,6 +672,7 @@
       background: var(--maroon);
       color: var(--cream);
       font-size: 12px;
+      font-size: clamp(8px, 2.0cqw, 12px);
       letter-spacing: .05em;
       text-decoration: none;
       font-family: Georgia, serif;
